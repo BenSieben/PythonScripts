@@ -27,12 +27,11 @@ def randomize_word(word):
     if len <= 3:  # If the word is 3 or less characters long, the word cannot be shuffled around at all
         scrambled_word = word
     else:
-
-    scrambled_word = ""
+        scrambled_word = word
     return scrambled_word
 
 filename = input("Enter the directory that you would like to generate a typoglycemia version of" +
-                 " (leave blank to use default typoglycemiaInput.txt")
+                 " (leave blank to use  the default typoglycemiaInput.txt:\n")
 
 text = read_text(filename)
 
@@ -40,5 +39,3 @@ textWords = text.split()  # Obtain an array of the words inside the text string
 
 for w in textWords:
     print(w, len(w))
-
-print(text)
