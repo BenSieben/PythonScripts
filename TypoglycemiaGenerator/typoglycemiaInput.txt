@@ -1,4 +1,1 @@
-This is a test input determining whether or not typooglycemia actually works.
-Basically, typoglycemia claims that letters within words can be rearranged
-in any order (while still leaving the outside and inside letters in the same 
-position) and readers will still understand what they are reading.
+This is a test input determining whether or not typooglycemia actually works. Basically, typoglycemia claims that letters within words can be rearranged in any order (while still leaving the outside and inside letters in the same position) and readers will still understand what they are reading.
